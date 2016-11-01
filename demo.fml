@@ -61,22 +61,41 @@
             </tabItem>
         </tab>
 		<grid>
-			<header>
-				<column />
-				<column />
-				<column/>
-				<column>
-					<column />
-					<column />
-				<column>
-			</header>
-			<row>
-				<column/>
-				<column/>
-				<column/>
-				<column/>
-				<column/>
-			</row>
+			<gridheader>
+				<row>
+					<column frozen='true'></column>
+					<column></column>
+					<column></column>
+					<column></column>
+				<row>
+				<row>
+					<column></column>
+					<column colspan="2"></column>
+					<column></column>
+				<row>
+			</gridheader>
+			<gridbody>
+				<row>
+					<column></column>
+					<column></column>
+					<column></column>
+					<column></column>
+				<row>
+				<row>
+					<column></column>
+					<column></column>
+					<column></column>
+					<column></column>
+				<row>
+			</gridbody>
+			<gridfooter>
+				<row>
+					<column></column>
+					<column></column>
+					<column></column>
+					<column></column>
+				<row>
+			</gridfooter>
 		</grid>
 		<button title="OK">
 		</button>
