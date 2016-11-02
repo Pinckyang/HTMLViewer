@@ -1,7 +1,11 @@
-<!--ÓÅ»¯Html½âÎö-->
+<!--ä¼˜åŒ–Htmlè§£æž-->
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="common.css"?>
+<?xml-stylesheet href="default.css" title="Default style"?>
+<?xml-stylesheet alternate="yes" href="alt.css" title="Alternative style"?>
+<?xml-stylesheet href="single-col.css" media="all and (max-width: 30em)"?>
+<?xml-javascript href="default.js"?>
 <window style="width:100%;height:100%;size:auto;">
-<resource type="text/javascript" src="index/main.js">
-<resource type="text/css" src="index/main.css">
 <header style="background-image:header-background.png">
 	<title style="text-align:left">demo</title>
 	<button style="background-image:closebtn.png;float:right"/>
@@ -17,8 +21,8 @@
 					<popup value="MySql"><span>MySql</span></popup>
 					<popup value="Java"><span>Java</span></popup>
 			</popup>
-		<button>
-	<panel>
+		</button>
+	</panel>
    <panel style="dock:client;size:auto">
 		<textbox value="test"><!--autocomplete-->
 			<popup>
@@ -41,7 +45,7 @@
 			</popup>
 		</textbox>
 		<textbox>
-			<image src="background-image:bk.png">
+			<image src="background-image:bk.png"/>
 			<button title="..." style="float:right">
 			</button>
 		</textbox>
@@ -51,9 +55,9 @@
 		</combobox>
 		<label></label>
 		<tab>
-            <tabItem title="tab1">
-				<panel>
-				</panel>
+            <tabitem title="tab1">
+				      <panel>
+				      </panel>
             </tabitem>
 			<tabItem>
 				<panel>
@@ -67,12 +71,12 @@
 					<column></column>
 					<column></column>
 					<column></column>
-				<row>
+				</row>
 				<row>
 					<column></column>
 					<column colspan="2"></column>
 					<column></column>
-				<row>
+				</row>
 			</gridheader>
 			<gridbody>
 				<row>
@@ -80,13 +84,13 @@
 					<column></column>
 					<column></column>
 					<column></column>
+				</row>
 				<row>
-				<row>
 					<column></column>
 					<column></column>
 					<column></column>
 					<column></column>
-				<row>
+				</row>
 			</gridbody>
 			<gridfooter>
 				<row>
@@ -94,7 +98,7 @@
 					<column></column>
 					<column></column>
 					<column></column>
-				<row>
+				</row>
 			</gridfooter>
 		</grid>
 		<button title="OK">
